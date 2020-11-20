@@ -1,0 +1,35 @@
+
+
+.mainTitleServices{
+    position:absolute;
+    width: 400px;
+height: 61px;
+left: 584px;
+top: 992px;
+font-weight: 600;
+font-size: 45px;
+line-height: 61px;
+}
+.compCode{
+    
+position: absolute;
+margin-left: 60px;
+left: 12px;
+right: 13px;
+height: 94.25px;
+width: 106.24px;
+
+
+line-height: 22px;
+
+border-radius: 0px;
+
+}
+.webDesigning{
+    position: absolute;
+    width: 209px;
+height: 41px;
+left: 267px;
+top: 1206px;
+}
+
