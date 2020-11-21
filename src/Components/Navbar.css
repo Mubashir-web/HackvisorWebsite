@@ -1,129 +1,129 @@
-.landingPage{
-    
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-    position: absolute;
-width: 1440px;
-height: 807px;
-left: 0px;
-top: 0px;
-width: 100%;
-    
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.navLinks{
-    position: absolute;
-    height: 22px;
-    top: 19px;
-    color: white;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
+.landingPage {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
-.homeLI{
-    width: 47px;
-    left: 483px;
+.bgVector {
+  margin-left: 28em;
+  width: 56.25em;
+  height: 100vh;
+  
 }
-.aboutLI{
-    width: 100px;
-    left: 572px;
+.navLinks {
+  position: absolute;
+  height: 1.37em;
+  top: 1.187em;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.37em;
+  text-decoration: none;
 }
-.servicesLI{
-    width: 63px;
-    left: 680px;
+.navLinks:hover {
+  padding-bottom: 10px;
+  border-bottom: 3px solid white;
 }
-.testimonialsLI{
-    width: 99px;
-    left: 785px;
+.navLinks:active {
+  padding-bottom: 10px;
+  border-bottom: 3px solid white;
 }
-.protfolioLI{
-    
-    width: 100px;
-    left: 899px;
+.homeLI {
+  width: 2.93em;
+  left: 30.19em;
 }
-.ourTeamLI{
-    width: 74px;
-    left: 1003px;
+.aboutLI {
+  width: fit-content;
+  left: 35.7em;
 }
-.contactLI{
-    width: 100px;
-    left: 1106px;
+.servicesLI {
+  width: 63px;
+  left: 680px;
+}
+.testimonialsLI {
+  width: 99px;
+  left: 785px;
+}
+.protfolioLI {
+  width: fit-content;
+  left: 899px;
+}
+.ourTeamLI {
+  width: 74px;
+  left: 1003px;
+}
+.contactLI {
+  width: 100px;
+  left: 1106px;
 }
 
-.bgVector{
-    
-    margin-left: 450px;
-width: 900px;
-height: 807px;
-left: 489px;
 
-
-
-}
 .logoHeader {
-    position: absolute;
-width: 145px;
-height: 41px;
-left: 105px;
-top: 10px;
+  position: absolute;
+  width: 145px;
+  height: 41px;
+  left: 105px;
+  top: 10px;
 }
-.logo1{
-    position: absolute;
-width: 41px;
-height: 29.91px;
-left: 257px;
-top: 18px;
-margin-left: 15px;
+.logo1 {
+  position: absolute;
+  width: 41px;
+  height: 29.91px;
+  left: 257px;
+  top: 18px;
+  margin-left: 15px;
 }
-.laptopimg{
-    position: absolute;
+.laptopimg {
+  position: absolute;
 
-width: 490.52px;
-height: 468.67px;
-left: 239.7px;
-top: 128.19px;
-left: 27.39%;
-right: 16.55%;
-top: 14.65%;
-bottom: 31.79%;
-margin-left: 300px;
+  width: 56.25em;
+  height: 468.67px;
+  left: 239.7px;
+  top: 128.19px;
+  margin-left: 10em;
 }
 
-.lapscreen{
-    position: absolute;
-    width: 191.73px;
-height: 206.44px;
-left: 478.19px;
-top: 186.37px;
+.lapscreen {
+  position: absolute;
+  width: 191.73px;
+  height: 206.44px;
+  left: 478.19px;
+  top: 186.37px;
 }
-.bluescreen{
-left: 54.65%;
-right: 23.44%;
-top: 21.3%;
-bottom: 55.11%;
-margin-left: 200px;
+.bluescreen {
+  left: 54.65%;
+  right: 23.44%;
+  top: 21.3%;
+  bottom: 55.11%;
+  margin-left: 200px;
 }
 
-.mainTitle{
-    position: absolute;
-width: 269px;
-height: 73.04px;
-left: 105px;
-top: 329px;
-font-style: normal;
-font-weight: bold;
-font-size: 49.3512px;
-line-height: 67px;
-
+.mainTitle {
+  position: absolute;
+  width: 269px;
+  height: 73.04px;
+  left: 105px;
+  top: 329px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 49.3512px;
+  line-height: 67px;
 }
-.compWorks{
-    position: absolute;
-width: 302px;
-height: 27px;
-left: 105px;
-top: 394px;
-font-weight: bold;
-font-size: 20px;
-line-height: 27px;
+.compWorks {
+  position: absolute;
+  width: 18.9em;
+  height: 27px;
+  left: 111px;
+  top: 20em;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
 }

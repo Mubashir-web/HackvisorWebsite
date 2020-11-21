@@ -1,0 +1,39 @@
+.processPage {
+  background-color: #fbab7e;
+  background-color: linear-gradient(
+    293.89deg,
+    #ca5f20 -3%,
+    #e7a54d 65.26%,
+    #fae6a9 102.69%
+  );
+  width: 100%;
+  height: 100vh;
+}
+.backgroundimg {
+  height: 100vh;
+}
+.processHeader {
+  position: absolute;
+  width: fit-content;
+  height: 3.81em;
+  left: 12em;
+  top: 30em;
+  font-size: 2.81rem;
+  line-height: 61px;
+}
+.dailySetup {
+  position: absolute;
+
+  left: 13px;
+  top: 93em;
+}
+.weeklyMeeting {
+  position: absolute;
+  top: 96em;
+  left: 505px;
+}
+.UserTesting {
+  position: absolute;
+  top: 93em;
+  left: 950px;
+}

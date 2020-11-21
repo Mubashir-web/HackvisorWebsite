@@ -1,35 +1,74 @@
-
-
-.mainTitleServices{
-    position:absolute;
-    width: 400px;
-height: 61px;
-left: 584px;
-top: 992px;
-font-weight: 600;
-font-size: 45px;
-line-height: 61px;
+.servicesPage {
+  width: 100%;
+  height: 100vh;
 }
-.compCode{
-    
-position: absolute;
-margin-left: 60px;
-left: 12px;
-right: 13px;
-height: 94.25px;
-width: 106.24px;
-
-
-line-height: 22px;
-
-border-radius: 0px;
-
-}
-.webDesigning{
-    position: absolute;
-    width: 209px;
-height: 41px;
-left: 267px;
-top: 1206px;
+.mainTitleServices {
+  margin: 2em auto;
+  text-align: center;
+  font-size: 3rem;
 }
 
+.servicesComponent {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.serviceElement {
+  width: 50%;
+}
+.serviceElement p {
+  font-size: 0.9rem;
+  flex-flow: row;
+  float: right;
+  flex: 2;
+  padding-right: 4em;
+  margin-bottom: 5em;
+}
+
+.serviceElement h3 {
+  flex: 2;
+  font-size: 1.8rem;
+  float: right;
+  padding-right: 5em;
+  width: fit-content;
+}
+.codee {
+  margin-left: 3em;
+}
+/* }
+.network {
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap-reverse
+} */
+.smartphone {
+  margin-left: 3em;
+}
+.webDesigningPara {
+  width: 361px;
+  height: 66px;
+
+  top: 60em;
+}
+.onoffservicesPara {
+  width: 355px;
+  height: 66px;
+  left: 58em;
+  top: 70em;
+}
+.developmentPara {
+  width: 361px;
+  height: 88px;
+  left: 267px;
+  top: 94em;
+}
+
+.marketingPara {
+  width: 365px;
+  height: 66px;
+  left: 53em;
+  top: 94em;
+}
